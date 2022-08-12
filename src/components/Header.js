@@ -10,6 +10,11 @@ const Header = () => {
             <Link to="/"><h1 className='logo'></h1></Link>
             <div className='search-box'>
                 <input type="text" onChange={(event) => dispatch(productSearch(event.target.value))} placeholder='Search Product' />
+
+            </div>
+            <div>
+
+        
             </div>
             <Link to="/cart">
                 <div className="cart-div">
